@@ -11,14 +11,14 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://beyondops.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/xstarone/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'xstarone', // Usually your GitHub org/user name.
+  organizationName: 'beyondops', // Usually your GitHub org/user name.
   projectName: 'xstarone', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -63,9 +63,9 @@ const config = {
         },
         items: [
           {to: '/', label: '首页', position: 'left'},
-          {to: '/products.html', label: '产品', position: 'left'},
-          {to: '/solutions.html', label: '解决方案', position: 'left'},
-          {to: '/services.html', label: '服务与支持', position: 'left'},
+          {to: '/products', label: '产品', position: 'left'},
+          {to: '/solutions', label: '解决方案', position: 'left'},
+          {to: '/services', label: '服务与支持', position: 'left'},
           {to: '/blog', label: '新闻动态', position: 'left'},
           {
             type: 'docSidebar',
@@ -73,8 +73,8 @@ const config = {
             position: 'left',
             label: '使用指南',
           },
-          {to: '/about-us.html', label: '关于我们', position: 'left'},
-          {to: '/join-us.html', label: '招商加盟', position: 'left'},
+          {to: '/about-us', label: '关于我们', position: 'left'},
+          {to: '/join-us', label: '招商加盟', position: 'left'},
           
           // {
           //   href: 'https://github.com/facebook/docusaurus',
@@ -87,46 +87,50 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '公司',
             items: [
               {
-                label: 'Tutorial',
+                label: '关于我们',
+                to: '/about-us',
+              },
+              {
+                label: '招商加盟',
+                to: '/join-us',
+              },
+              {
+                label: '服务与支持',
+                to: '/solutions',
+              },
+            ],
+          },
+          {
+            title: '文档',
+            items: [
+              {
+                label: '产品',
+                to: '/products',
+              },
+              {
+                label: '解决方案',
+                to: '/solutions',
+              },
+              {
+                label: '使用指南',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '更多',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
+                label: '新闻动态',
                 to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 智远星`,
       },
       prism: {
         theme: lightCodeTheme,

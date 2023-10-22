@@ -10,32 +10,37 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: '安全可靠',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        国家公安部信息安全等级保护三级认证
+双云(阿里云、华为云)实时异地备份容灾机制
+通过ISO27001信息安全管理体系认证
+银行级别安保标准，支持私有化部署
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '专业服务',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+规范工作流程，打通经营数据壁垒
+开放API接口，可集成第三方系统
+支持部分定制，提炼共性兼顾个性
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '品牌保障',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+专属客户成功经理，保障系统实施落地
+首创“管家5率”，评估系统使用效果
+7*24小时在线客服，实时答疑解惑
+官方承诺：3个月无理由退费
       </>
     ),
   },
