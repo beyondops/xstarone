@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkxstarone=self.webpackChunkxstarone||[]).push([[2850],{6563:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/xstarone/blog/tags/facebook","allTagsPath":"/xstarone/blog/tags","count":1}')}}]);

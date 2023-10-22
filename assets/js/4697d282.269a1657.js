@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkxstarone=self.webpackChunkxstarone||[]).push([[705],{3441:e=>{e.exports=JSON.parse('{"permalink":"/xstarone/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

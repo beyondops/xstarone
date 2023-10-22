@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkxstarone=self.webpackChunkxstarone||[]).push([[426],{1219:e=>{e.exports=JSON.parse('{"label":"welcome","permalink":"/xstarone/blog/tags/welcome","allTagsPath":"/xstarone/blog/tags","count":1}')}}]);
