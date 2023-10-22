@@ -59,7 +59,7 @@ const config = {
         title: '智远星',
         logo: {
           alt: '智远星',
-          src: 'img/logo.png',
+          src: 'img/logo-icon.png',
         },
         items: [
           {to: '/', label: '首页', position: 'left'},
